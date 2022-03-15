@@ -5,12 +5,22 @@
 > This is my first project of the Math Magicians application buiding in React Js.
 
 
-## Run the Project Locally
-- To Clone the Project Locally Please click the following link.
-- [Math Magicians](https://github.com/Nizamuddin4493/math-magicians)
-- The click on Green Code button
-- Copy the SSH link and clone it Locally through your Code Editor's terminal.
-
+## Setup
+``` bash
+Clone this repository
+$ git clone git@github.com:Nizamuddin4493/math-magicians.git
+$ cd math_magicians
+```
+## Run project
+``` bash
+$ npm install
+$ npm run start 
+```
+## Run tests
+``` bash
+To run the test just use the following command!
+$ npm test
+```
 ## Built With
 
 - React
