@@ -32,13 +32,13 @@
   color: #fff;
   background-color: rgb(185, 185, 185);
   border: none;
-  outline:none;
+  outline: none;
   padding-right: 5px;
 }
 
-input:active{
+input:active {
   border: none;
-  outline:none;
+  outline: none;
 }
 
 .item {
