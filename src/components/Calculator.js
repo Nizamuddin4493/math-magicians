@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import '../index.css';
 import Buttons from './Buttons';
 import calculate from '../logic/calculate';
-
-console.log(React);
+import CalBody from './CalBody';
 
 const CalDesign = () => {
   const [displayed, setDisplayed] = useState({ total: 0, next: '', operation: '' });
@@ -15,14 +14,17 @@ const CalDesign = () => {
   const { total, next, operation } = displayed;
 
   return (
-    <div className="calculator">
-      <div className="result">
-        {total}
-        {operation}
-        {next}
+    <>
+      <CalBody />
+      <div className="calculator">
+        <div className="result">
+          {total}
+          {operation}
+          {next}
+        </div>
+        <Buttons click={onClick} />
       </div>
-      <Buttons click={onClick} />
-    </div>
+    </>
   );
 };
 
