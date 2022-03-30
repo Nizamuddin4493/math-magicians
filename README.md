@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome Books
+# Math Maficians
 
 > This is my first project of the Math Magicians application buiding in React Js.
 
